@@ -1,6 +1,6 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/Desktop/neovim"
+window_root "~/Desktop/cp"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
@@ -11,7 +11,7 @@ new_window "cp"
 #split_h 50
 
 # Run commands.
-run_cmd "nvim -S Session.vim"
+run_cmd "nvim -S s1.vim"
 #run_cmd "top"     # runs in active pane
 #run_cmd "date" 1  # runs in pane 1
 
