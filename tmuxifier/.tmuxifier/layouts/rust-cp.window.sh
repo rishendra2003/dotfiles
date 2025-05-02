@@ -1,6 +1,6 @@
 # Set window root path. Default is `$session_root`.
 # Must be called before `new_window`.
-window_root "~/Desktop/cp"
+window_root "~/Desktop/rust/cp/src/"
 
 # Create new window. If no argument is given, window name will be based on
 # layout file name.
@@ -12,7 +12,7 @@ new_window "rust-cp"
 
 select_pane 0
 # Run commands.
-run_cmd "nvim -S s2.vim"
+run_cmd "nvim -S Session.vim"
 #run_cmd "top"     # runs in active pane
 #run_cmd "date" 1  # runs in pane 1
 
