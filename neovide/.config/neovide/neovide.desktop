@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Neovide
+Exec=neovide
+Icon=/home/rishi/.config/neovide/29ae8b466c128cf66bb39b20fdbdce3bf8bcdc9a-dev.neovide.neovide.png
+Terminal=false
+Type=Application
+Categories=Development;

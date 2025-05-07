@@ -7,8 +7,6 @@ return {
     ensure_installed = {
       "lua",
       "vim",
-      "c++",
-      "rust",
       -- add more arguments for adding more treesitter parsers
     },
   },
