@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# A simple script to display the WiFi name (SSID)
+# Usage: ./wifi.sh -i  -> with icon
+#        ./wifi.sh     -> text only
+
+SSID_NAME=$(nmcli -t -f active,ssid dev wifi | grep '^yes' | cut -d':' -f2)
+
+if [[ -n "${SSID_NAME}" ]]; then
+	if [[ $1 == "-i" ]]; then
+		echo "  ${SSID_NAME}"
+	else
+		echo "${SSID_NAME}"
+	fi
+else
+	echo "Not Connected"
+fi
+
+exit 0
+
